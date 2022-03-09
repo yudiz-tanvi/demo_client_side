@@ -1,0 +1,12 @@
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\bin\Debug\net5.0\BlazorWASMCRUD.Shared.deps.json
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\bin\Debug\net5.0\BlazorWASMCRUD.Shared.dll
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\bin\Debug\net5.0\ref\BlazorWASMCRUD.Shared.dll
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\bin\Debug\net5.0\BlazorWASMCRUD.Shared.pdb
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\BlazorWASMCRUD.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\BlazorWASMCRUD.Shared.AssemblyInfoInputs.cache
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\BlazorWASMCRUD.Shared.AssemblyInfo.cs
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\BlazorWASMCRUD.Shared.csproj.CoreCompileInputs.cache
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\BlazorWASMCRUD.Shared.dll
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\ref\BlazorWASMCRUD.Shared.dll
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\BlazorWASMCRUD.Shared.pdb
+D:\YUDIZ\Trainee\B\BlazorLocal\BlazorWASMCRUD\BlazorWASMCRUD\Shared\obj\Debug\net5.0\BlazorWASMCRUD.Shared.csproj.AssemblyReference.cache

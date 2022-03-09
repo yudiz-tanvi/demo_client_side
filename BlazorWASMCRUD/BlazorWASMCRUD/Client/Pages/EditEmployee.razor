@@ -1,0 +1,56 @@
+﻿@page "/editEmployee/{id}"
+
+@using BlazorWASMCRUD.Shared
+
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h2>Edit Employee</h2>
+<hr />
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="EmpName" class="control-label">Name</label>
+                <input form="EmpName" class="form-control" @bind="@emp.EmpName" />
+            </div>
+            <div class="form-group">
+                <label for="Designation" class="control-label">Designation</label>
+                <input form="Designation" class="form-control" @bind="@emp.Designation" />
+            </div>
+            <div class="form-group">
+                <label for="Department" class="control-label">Department</label>
+                <input form="Department" class="form-control" @bind="@emp.Department" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="=col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@UpdateEmployee" value="Save" />
+                <input type="button" class="btn" @onclick="@Cancle" value="Cancel" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        emp = await Http.GetFromJsonAsync<Employee>("http://localhost:34451/api/EmployeeInfoes/"+id);
+    }
+
+    Employee emp = new Employee();
+    protected async Task UpdateEmployee()
+    {
+        await Http.PutAsJsonAsync("http://localhost:34451/api/EmployeeInfoes/"+id, emp);
+        NavigationManager.NavigateTo("employeeList");
+    }
+    void Cancle()
+    {
+        NavigationManager.NavigateTo("employeeList");
+    }
+}

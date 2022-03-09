@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Server\\BlazorWASMCRUD.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Client\\BlazorWASMCRUD.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Client\\BlazorWASMCRUD.Client.csproj",
+        "projectName": "BlazorWASMCRUD.Client",
+        "projectPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Client\\BlazorWASMCRUD.Client.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\BlazorWASMCRUD.Shared.csproj": {
+                "projectPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\BlazorWASMCRUD.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Toolbelt.Blazor.HttpClientInterceptor": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Server\\BlazorWASMCRUD.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Server\\BlazorWASMCRUD.Server.csproj",
+        "projectName": "BlazorWASMCRUD.Server",
+        "projectPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Server\\BlazorWASMCRUD.Server.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Client\\BlazorWASMCRUD.Client.csproj": {
+                "projectPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Client\\BlazorWASMCRUD.Client.csproj"
+              },
+              "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\BlazorWASMCRUD.Shared.csproj": {
+                "projectPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\BlazorWASMCRUD.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\BlazorWASMCRUD.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\BlazorWASMCRUD.Shared.csproj",
+        "projectName": "BlazorWASMCRUD.Shared",
+        "projectPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\BlazorWASMCRUD.Shared.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\YUDIZ\\Trainee\\B\\BlazorLocal\\BlazorWASMCRUD\\BlazorWASMCRUD\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

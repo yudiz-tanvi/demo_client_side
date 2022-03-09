@@ -1,0 +1,54 @@
+﻿@page "/deleteEmployee/{id}"
+@using BlazorWASMCRUD.Shared
+
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h2>Delete</h2>
+<p>Are You Sure You Want To Delete This Employee With Id : <b>@id</b> </p>
+<br />
+
+<div class="col-md-4">
+    <table class="table">
+        <tr>
+            <td>Name</td>
+            <td>@emp.EmpName</td>
+        </tr>
+        <tr>
+            <td>Designation</td>
+            <td>@emp.Designation</td>
+        </tr>
+        <tr>
+            <td>Department</td>
+            <td>@emp.Department</td>
+        </tr>
+    </table>
+
+    <div class="form-group">
+        <input type="button" value="Delete"  @onclick="@Delete" class="btn btn-primary"  />
+        <input type="button" value="Cancel"  @onclick="@Cancle" class="btn" />
+    </div>
+</div>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        emp = await Http.GetFromJsonAsync<Employee>("http://localhost:34451/api/EmployeeInfoes/" + id);
+    }
+
+    Employee emp = new Employee();
+    protected async Task Delete()
+    {
+        await Http.DeleteAsync("http://localhost:34451/api/EmployeeInfoes/" + id);
+        NavigationManager.NavigateTo("employeeList");
+    }
+    void Cancle()
+    {
+        NavigationManager.NavigateTo("employeeList");
+    }
+}
